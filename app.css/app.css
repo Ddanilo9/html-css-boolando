@@ -54,13 +54,14 @@ header{
 .img-profile{
     position: relative;
     z-index: 2;
+    padding: 5px;
 }
 
 .img-profile-b{
     position: absolute;
     left: 0;
     z-index: 1;
-    
+    padding: 5px;    
 }
 
 .col{
@@ -76,10 +77,6 @@ header{
     z-index: 0;
 }
 
-.container-sales{
-    display: flex;
-}
-
 .sales-details{
     background-color: red;
     padding: 2px 5px;
@@ -87,12 +84,12 @@ header{
     position: absolute;
     z-index: 4;
     bottom: 87px;
-    left: 0px;
+    left: 5px;
 }
 
 .green{
     background-color: green;
     position: absolute;
     z-index: 4;
-    left: 50px;
+    left: 55px;
 }
