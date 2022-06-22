@@ -75,7 +75,7 @@ header{
 }
 
 .img-profile:hover{
-    z-index: 0;
+    opacity: 0;
 }
 
 .sales-details,
@@ -124,4 +124,9 @@ header{
     width: 15px;
     padding: 5px;
     font-size: 15px;
+}
+
+.col:hover::after{
+    color: red;
+    font-size:20px ;
 }
